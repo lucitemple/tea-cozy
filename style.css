@@ -1,0 +1,50 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 1300px;
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    height: 69px;
+    width: 1200px;
+    display: inline-flex;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    opacity: 0.9;
+    align-items: center;
+}
+
+header > img {
+    height: 50px;
+}
+
+a {
+    color: seashell;
+}
+
+
+#mission {
+    width: 1200px;
+
+}
+
+#tea {
+    width: 1000px;
+
+}
+
+figure {
+    width: 30%;
+
+}
