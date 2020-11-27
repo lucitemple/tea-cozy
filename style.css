@@ -33,12 +33,10 @@ nav {
     width: 1300px;
     text-align: right;
     margin-right: 10px;
-    
-
 }
+
 a {
     color: seashell;
-
 }
 
 main {
@@ -47,11 +45,11 @@ main {
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    text-align: center;
+    align-items: center;
 
 }
 
-
+/* Mission section */
 #mission {
     display: flex;
     flex-direction: column;
@@ -61,7 +59,6 @@ main {
     width: 1200px;
     height: 700px;
     background: url('./images/img-mission-background.webp') top left/cover no-repeat;
-    
 }
 
 #mission_text{
@@ -69,22 +66,32 @@ main {
     opacity: 0.9;
 }
 
+/* Tea section */
 #tea {
     width: 1000px;
+    opacity: 0.9;
 
 }
 
 figure > img {
     width: 300px;
     height: 200px;
-
 }
-
 .products {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+/* Location section */
+
+/* Footer */
 #copyright {
     text-align: left;
     margin-left: 20px;
