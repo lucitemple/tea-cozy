@@ -42,28 +42,31 @@ a {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    text-align: center
+    text-align: center;
 
-}
-
-main > img {
-    z-index: -1;
 }
 
 
 #mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
     margin-top: 70px;
     width: 1200px;
     height: 700px;
+    background: url('./images/img-mission-background.webp') top left/cover no-repeat;
     
-
 }
-#mission > img {
-    width: 1200px;
-    height: 700px
+
+#mission_text{
+    background-color: black;
+    opacity: 0.9;
 }
 
 #tea {
@@ -71,9 +74,15 @@ main > img {
 
 }
 
-figure {
-    width: 30%;
+figure > img {
+    width: 300px;
+    height: 200px;
 
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #copyright {
