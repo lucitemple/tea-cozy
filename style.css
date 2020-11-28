@@ -104,7 +104,11 @@ figcaption {
 /* Location section */
 
 #location {
-    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-top: 50px;
     width: 1200px;
     height: 500px;
     background: url('./images/img-locations-background.webp') top left/cover no-repeat;
@@ -114,17 +118,26 @@ figcaption {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 15px;
+    justify-content: center;
+}
 
+.locations > h2 {
+    margin-bottom: 15px;
+    padding-bottom: 0;
 }
 .card {
     width: 300px;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
     background-color: black;
 }
 
 /* Footer */
+
+footer > div {
+    height: 200px;
+
+}
 #copyright {
     text-align: left;
     margin-left: 20px;
