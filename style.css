@@ -103,6 +103,27 @@ figcaption {
 
 /* Location section */
 
+#location {
+    margin-top: 15px;
+    width: 1200px;
+    height: 500px;
+    background: url('./images/img-locations-background.webp') top left/cover no-repeat;
+}
+
+.locations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+
+}
+.card {
+    width: 300px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: black;
+}
+
 /* Footer */
 #copyright {
     text-align: left;
