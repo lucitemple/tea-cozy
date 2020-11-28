@@ -73,6 +73,10 @@ main {
 
 }
 
+figure {
+    margin: 10px;
+    
+}
 figure > img {
     width: 300px;
     height: 200px;
@@ -81,12 +85,20 @@ figure > img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
+
+#myrtle {
+    margin-left: 170px;
+}
+
+ #bedford {
+     margin-right: 110px;
+ }
 
 figcaption {
     margin-top: 10px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 /* Location section */
